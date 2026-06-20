@@ -19,7 +19,7 @@ crud-api/
 
 ---
 
-## User Schema (from slide 7)
+## User Schema
 
 | Column       | Type            | Constraint                     |
 |--------------|-----------------|--------------------------------|
@@ -114,7 +114,7 @@ curl -X DELETE http://localhost:3000/api/users/1
 
 ---
 
-## CRUD Lifecycle Test (Gatekeeper Rule – slide 14)
+## CRUD Lifecycle Test
 
 ```bash
 # 1. POST → create user (expect 201)
